@@ -1,6 +1,4 @@
-﻿using Ciphers.Common;
-
-namespace Ciphers.Algorithms;
+﻿namespace Ciphers.Ciphers.Implementations;
 
 public class CaesarWithOneKey : ICipher
 {
@@ -12,14 +10,10 @@ public class CaesarWithOneKey : ICipher
         var finalMessage = "";
         foreach (var letter in lowerCaseMessage)
         {
-            if (letter==32)
-            {
-                finalMessage=finalMessage+" ";
-                continue;
-            }
-            var cryptedLetter =(letter-97+Key)%26;
+            if (letter == 32) continue;
+            var cryptedLetter = (letter - 97 + Key) % 26;
             var stringLetter = char.ConvertFromUtf32(cryptedLetter + 97);
-            finalMessage =  finalMessage+stringLetter;
+            finalMessage = finalMessage + stringLetter;
         }
 
         return finalMessage;
@@ -30,11 +24,7 @@ public class CaesarWithOneKey : ICipher
         var finalMessage = "";
         foreach (var letter in message)
         {
-            if (letter==32)
-            {
-                finalMessage = finalMessage + " ";
-                continue;
-            }
+            if (letter == 32) continue;
 
             var decryptedLetter = (letter - 97 - Key) % 26;
             var stringLetter = char.ConvertFromUtf32(decryptedLetter + 97);
