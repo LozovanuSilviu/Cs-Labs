@@ -26,6 +26,6 @@
 ## Implementations
 
 1. [Caesar Substitution Cipher](https://github.com/LozovanuSilviu/Cs-Labs/blob/main/Ciphers/Reports/Caesar_Substitution.md)
-2. [Caesar Permutation Cipher](https://github.com/LozovanuSilviu/Cs-Labs/blob/main/Ciphers/Reports/Caesar_Permutation)
+2. [Caesar Permutation Cipher](https://github.com/LozovanuSilviu/Cs-Labs/blob/main/Ciphers/Reports/Caesar_Permutation.md)
 3. [Vigenere Cipher](https://github.com/LozovanuSilviu/Cs-Labs/blob/main/Ciphers/Reports/Vigenere.md)
-4. [Affine Cipher](https://github.com/LozovanuSilviu/Cs-Labs/blob/main/Ciphers/Reports/Affine)
+4. [Affine Cipher](https://github.com/LozovanuSilviu/Cs-Labs/blob/main/Ciphers/Reports/Affine.md)
