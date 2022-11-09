@@ -27,5 +27,5 @@
 
 ## Implementations
 
-1. [Block Cipher](https://github.com/LozovanuSilviu/Cs-Labs/blob/main/Ciphers/Reports/Rc4.md)
-2. [Stream Cipher](https://github.com/LozovanuSilviu/Cs-Labs/blob/main/Ciphers/Reports/Blowfish.md)
+1. [Block Cipher](https://github.com/LozovanuSilviu/Cs-Labs/blob/main/Ciphers/Reports/Blowfish.md)
+2. [Stream Cipher](https://github.com/LozovanuSilviu/Cs-Labs/blob/main/Ciphers/Reports/Rc4.md)

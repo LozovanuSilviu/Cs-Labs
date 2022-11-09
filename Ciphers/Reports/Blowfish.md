@@ -61,7 +61,7 @@ Round_func working with the same blocks of data and returning 32-bit result as a
 ```
 
 ### Encryption
-&ensp;&ensp;&ensp;  At the encryption part we encrypt a 8-byte block of text, which should be 8 byte string and return encrypted string. For this, I use big endianness for the blocks of data xl and xr, which means I store the most significant byte of a word at the smallest memory address and the least significant byte at the largest.
+&ensp;&ensp;&ensp;  At the encryption part we encrypt a 8-byte block of text, which should be 8 byte string and return encrypted string. 
 ```
   public String Encrypt(String text)
         {
