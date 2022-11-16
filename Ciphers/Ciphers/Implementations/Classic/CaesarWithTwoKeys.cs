@@ -1,4 +1,4 @@
-﻿namespace Ciphers.Ciphers.Implementations;
+﻿namespace Ciphers.Ciphers.Implementations.Classic;
 
 public class CaesarWithTwoKeys : ICipher
 {
