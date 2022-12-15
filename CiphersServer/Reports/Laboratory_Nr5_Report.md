@@ -27,3 +27,4 @@
 4. As services that your application could provide, you could use the classical ciphers. Basically the user would like to get access and use the classical ciphers, but they need to authenticate and be authorized.
 
 ## Implementations
+1. [2 Factor Authentication Implementation](https://github.com/LozovanuSilviu/Cs-Labs/blob/main/CiphersServer/Reports/TFA_Implementation.md)
