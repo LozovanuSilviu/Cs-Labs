@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ciphers", "Ciphers\Ciphers.csproj", "{C25E875E-280A-4D8D-91B7-87E99AACDDD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CiphersServer", "CiphersServer\CiphersServer.csproj", "{BA15DF7E-953A-4BAC-BA89-C3ED3FA64909}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{C25E875E-280A-4D8D-91B7-87E99AACDDD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C25E875E-280A-4D8D-91B7-87E99AACDDD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C25E875E-280A-4D8D-91B7-87E99AACDDD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA15DF7E-953A-4BAC-BA89-C3ED3FA64909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA15DF7E-953A-4BAC-BA89-C3ED3FA64909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA15DF7E-953A-4BAC-BA89-C3ED3FA64909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA15DF7E-953A-4BAC-BA89-C3ED3FA64909}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
